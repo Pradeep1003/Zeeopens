@@ -109,8 +109,56 @@ maharashtra |mumbai| pune| rajasthan| delhi| madhya pradesh| india">
 
   gtag('config', 'UA-163799974-1');
 </script>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
+
 
 <body>
 	<div class="preeloader">
@@ -134,11 +182,11 @@ maharashtra |mumbai| pune| rajasthan| delhi| madhya pradesh| india">
 
 						<div class="collapse navbar-collapse" id="navbar-menu">
 							<ul id="nav" class="nav navbar-nav navbar-right">
-								<li><a href="index-3.html">Home</a></li>
+								<li><a href="index.html">Home</a></li>
 								<li><a href="aboutus.html">About Us</a> </li>
 								
 								<li> <a href="products.html">Products</a> </li>
-                                <li> <a href="glossy.html">Glossy</a> </li>
+                                <!-- <li> <a href="glossy.html">Glossy</a> </li> -->
 								<li> <a href="gallery.html">Gallery</a> </li>
                                
 								<li><a href="contactus.html">Contact</a></li>
@@ -219,32 +267,56 @@ maharashtra |mumbai| pune| rajasthan| delhi| madhya pradesh| india">
 				</div>
                 
 		
-				<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-					<div class="right-about-image">
-						<img src="img/moxiepen1.jpg" alt="">
-					</div>
-				</div>
-
-				<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-					<div class="right-about-image">
-						<img src="img/moxiepen2.jpg" alt="">
-					</div>
-				</div>	
-			</div>
-		</div>
-	</section>
-<!--ABOUTAREA2-->
+				<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="moxiepen1.jpg">
+      <img src="images/moxiepen1.jpg" alt="moxiepen1" width="600" height="400">
+    </a>
+    <div class="desc">Moxie Technic</div>
+  </div>
+</div>
 
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="moxiepen2.jpg">
+      <img src="images/moxiepen2.jpg" alt="moxiepen2" width="600" height="400">
+    </a>
+    <div class="desc">Baby Doll</div>
+  </div>
+</div>
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Moxie-Smart.jpg">
+      <img src="images/Moxie_Smart.jpg" alt="Moxie-Smart" width="600" height="400">
+    </a>
+    <div class="desc">Moxie-Smart</div>
+  </div>
+</div>
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Moxie-SoftFlow.jpg">
+      <img src="images/Moxie_SoftFlow.jpg" alt="Moxie-SoftFlow" width="600" height="400">
+    </a>
+    <div class="desc">Moxie_SoftFlow</div>
+  </div>
+</div>
+<br>
+<br>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Moxie_Rangeela.jpg">
+      <img src="images/Moxie_Rangeela.jpg" alt="Moxie_Rangeela" width="600" height="400">
+    </a>
+    <div class="desc">Moxie_Rangeela</div>
+  </div>
+</div>
 
+<div class="clearfix"></div>
 
-
-
-
-
-
+<div style="padding:6px;">
 	<!--CONTACT AREA-->
 	<section class="contact-area gray-bg" id="contact">
 		<div class="top-contact section-padding">
@@ -307,7 +379,7 @@ maharashtra |mumbai| pune| rajasthan| delhi| madhya pradesh| india">
 				<div class="row">
 					<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 						<div class="footer-copyright text-center">
-							<p>&copy; 2018 <a href="#">ZEEO PENS</a> All Right Reserved. </p>
+							<p>&copy; 2020 <a href="#">ZEEO PENS</a> All Right Reserved. </p>
 						</div>
 					</div>
 				</div>
